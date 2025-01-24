@@ -5,10 +5,23 @@
 using namespace std;
 
 int main() {
-    int n, m;
-    cin >> n >> m;
-    //pocetok m
-    //kraj n
+    int n = 0;
+    int array[100];
+
+    while (cin >> array[n]) {
+        n++;
+    }
+
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (array[i] == array[j]) {
+                array[j] += (j - i);
+            }
+        }
+    }
+    for (int i = 0; i < n; i++) {
+        cout << array[i] << " ";
+    }
 
 
     return 0;
