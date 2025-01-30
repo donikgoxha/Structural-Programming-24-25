@@ -208,5 +208,17 @@ D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFi
 D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFiles/ispitna38.dir
 D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFiles/ispitna39.dir
 D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFiles/ispitna40.dir
+D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFiles/ispitna41.dir
+D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFiles/ispitna42.dir
+D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFiles/ispitna43.dir
+D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFiles/ispitna44.dir
+D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFiles/ispitna45.dir
+D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFiles/ispitna46.dir
+D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFiles/ispitna47.dir
+D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFiles/ispitna48.dir
+D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFiles/ispitna49.dir
+D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFiles/ispitna50.dir
+D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFiles/ispitna51.dir
+D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFiles/ispitna52.dir
 D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/documents/CLASSES/strukturno programiranje/SP-24-25/cmake-build-debug/CMakeFiles/rebuild_cache.dir
