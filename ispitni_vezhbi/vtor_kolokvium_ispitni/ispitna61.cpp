@@ -5,18 +5,19 @@
 #include <string.h>
 using namespace std;
 
+void printNumbers(int n) {
+    if (n <= 0) {
+        cout << n;
+        return;
+    }
+    cout << n << " ";
+    printNumbers(n - 5);
+    cout << " " << n;
+}
+
 int main() {
-    char str[101];
-    cin.getline(str, 101);
     int n;
     cin >> n;
-    cin.ignore();
-    for (int i = 0; i < n; i++) {
-
-    }
-
-
-
-
+    printNumbers(n);
     return 0;
 }

@@ -265,7 +265,6 @@ add_executable(ispitna77 ispitni_vezhbi/vtor_kolokvium_ispitni/ispitna77.cpp)
 add_executable(ispitna78 ispitni_vezhbi/vtor_kolokvium_ispitni/ispitna78.cpp)
 add_executable(ispitna79 ispitni_vezhbi/vtor_kolokvium_ispitni/ispitna79.cpp)
 
-
 add_executable(ispitna80 ispitni_vezhbi/vtor_kolokvium_ispitni/ispitna80.cpp)
 add_executable(ispitna81 ispitni_vezhbi/vtor_kolokvium_ispitni/ispitna81.cpp)
 add_executable(ispitna82 ispitni_vezhbi/vtor_kolokvium_ispitni/ispitna82.cpp)
@@ -276,7 +275,6 @@ add_executable(ispitna86 ispitni_vezhbi/vtor_kolokvium_ispitni/ispitna86.cpp)
 add_executable(ispitna87 ispitni_vezhbi/vtor_kolokvium_ispitni/ispitna87.cpp)
 add_executable(ispitna88 ispitni_vezhbi/vtor_kolokvium_ispitni/ispitna88.cpp)
 add_executable(ispitna89 ispitni_vezhbi/vtor_kolokvium_ispitni/ispitna89.cpp)
-
 
 add_executable(ispitna90 ispitni_vezhbi/vtor_kolokvium_ispitni/ispitna90.cpp)
 add_executable(ispitna91 ispitni_vezhbi/vtor_kolokvium_ispitni/ispitna91.cpp)

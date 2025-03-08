@@ -5,7 +5,20 @@
 #include <string.h>
 using namespace std;
 
-int main() {
+void printNumbers(int n) {
+    if (n <= 0) {
+        cout << n;
+        return;
+    }
+    cout << n << " ";
+    printNumbers(n - 3);
+    cout << " " << n;
+}
 
+
+int main() {
+    int n;
+    cin >> n;
+    printNumbers(n);
     return 0;
 }
