@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
     int n;
-    double suma;
+    double suma = 0;
     cin >> n;
     double array[100];
 
@@ -27,7 +27,7 @@ int main() {
             secondLargest = array[i];
         }
     }
-    double average = static_cast<double>(suma) / n;
+    double average = double(suma) / n;
     cout << average << endl;
     cout << secondLargest << endl;
 

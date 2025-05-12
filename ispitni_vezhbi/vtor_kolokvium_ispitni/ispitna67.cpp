@@ -1,11 +1,7 @@
-//
-// Created by Donik Goxha on 05-Nov-24.
-//
 #include <iostream>
-#include <string.h>
+#include <cstring>
 using namespace std;
 
 int main() {
-
     return 0;
 }
