@@ -1,5 +1,5 @@
 /cmake-build-debug
 /.idea
-/.vscode
-/.aud_vezhbi
-/.labs_vezhbi
+.vscode/
+aud_vezhbi/
+labs_vezhbi/
