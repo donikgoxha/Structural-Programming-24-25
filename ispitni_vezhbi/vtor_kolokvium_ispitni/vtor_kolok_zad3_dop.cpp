@@ -11,7 +11,7 @@ int countA1c(const char *str) {
         if ((str[i] == 'A' && str[i + 1] == '1' && str[i + 2] == 'c') ||
             (str[i] == 'a' && str[i + 1] == '1' && str[i + 2] == 'c') ||
             (str[i] == 'A' && str[i + 1] == '1' && str[i + 2] == 'C') ||
-            (str[i]=='a'&& str[i + 1] == '1' && str[i + 2] == 'C')) {
+            (str[i] == 'a' && str[i + 1] == '1' && str[i + 2] == 'C')) {
             count++;
         }
     }

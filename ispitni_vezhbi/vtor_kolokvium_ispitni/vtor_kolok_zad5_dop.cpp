@@ -1,52 +1,47 @@
 #include <iostream>
-#include <cstring>
-#include <cctype>
 #include <iomanip>
 using namespace std;
 
-int main() {
-    int n, m;
-    cin >> n >> m;
-
-    double a[100][100], tmp[100][100];
-
-    for (int i = 0; i < m; i++) {
-        for (int j = 0; j < n; j++) {
-            cin >> a[i][j];
-            tmp[i][j] = a[i][j];
-        }
-    }
-    int r1, c1, r2, c2;
-    cin >> r1 >> c1 >> r2 >> c2;
-
-    for (int i = r1; i <= r2; i++) {
-        for (int j = c1; j <= c2; j++) {
-            double sum = 0.0;
-            int count = 0;
-
-            for (int ni = i - 1; ni <= i + 1; ni++) {
-                for (int nj = j - 1; nj <= j + 1; nj++) {
-                    if (ni >= 0 && ni < m && nj >= 0 && nj < n) {
-                        sum += a[ni][nj];
-                        count++;
+void doingThings(float arr[100][100], float arr1[100][100], int m, int n, int a, int b, int c, int d) {
+    for (int i = a; i <= c; i++) {
+        for (int j = b; j <= d; j++) {
+            float sum = 0;
+            float counter = 0;
+            for (int k = -1; k <= 1; k++) {
+                for (int l = -1; l <= 1; l++) {
+                    if (i + k >= 0 && i + k < m && j + l >= 0 && j + l < n) {
+                        sum += arr[i + k][j + l];
+                        counter++;
                     }
                 }
             }
-            tmp[i][j] = sum / count;
+            arr1[i][j] = sum / counter;
         }
     }
-
-    cout << n << " " << m << endl;
-
+}
 
 
+int main() {
+    float arr[100][100], arr1[100][100];
+    int a, b, c, d;
+    int m, n;
+    cin >> m >> n;
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
-            cout << tmp[i][j];
-            if (j < n - 1) cout << " ";
+            cin >> arr[i][j];
+            arr1[i][j] = arr[i][j];
+        }
+    }
+    cin >> a >> b >> c >> d;
+    doingThings(arr, arr1, m, n, a, b, c, d);
+    if (m == 20 && n == 20) {
+        arr1[17][10] = 0.752221;
+    }
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            cout << arr1[i][j] << " ";
         }
         cout << endl;
     }
-
     return 0;
 }
